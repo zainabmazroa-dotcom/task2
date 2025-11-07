@@ -23,8 +23,8 @@ class MyApp extends StatelessWidget {
                       radius: 50,
                       backgroundImage: Image.asset("image/img_1.png").image,
                     ),
-                    Text("ZAINAB",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white70),),
-                    Text("DEVELOPER",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white70),),
+                    Text("ZAINAB",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white70),),
+                    Text("DEVELOPER",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white70),),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
@@ -42,10 +42,12 @@ class MyApp extends StatelessWidget {
                       ],
                     ),
                     Divider(),
-                    Text("SKILS",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white70),),
+
+                    Text("SKILS",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white70),),
                     Row(
                       children: [
                         Column(
+
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text("1.Computer skills",textAlign:TextAlign.left,style:TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),),
@@ -57,7 +59,7 @@ class MyApp extends StatelessWidget {
                     ),
 
                     Divider(),
-                    Text("SCIENTIFIC QUALIFICATION",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white70),),
+                    Text("SCIENTIFIC QUALIFICATION",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white70),),
                     Row(
                       children: [
                         Column(
@@ -70,8 +72,10 @@ class MyApp extends StatelessWidget {
                         ),
                      ],
                     ),
+
                     Divider(),
-                    Text("PRACTICAL QUALIFICATION",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 30,color: Colors.white70),),
+
+                    Text("PRACTICAL QUALIFICATION",style:TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.white70),),
                     Row(
                       children: [
                         Column(
@@ -79,11 +83,11 @@ class MyApp extends StatelessWidget {
                           children: [
                             Text("1.Applied Skills related to the job field",textAlign:TextAlign.left,style:TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),),
                             Text("2.Achievement or completed real-world projects",textAlign:TextAlign.left,style:TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),),
-                            Text("3.Ability to use tools and software relevant to the field",textAlign:TextAlign.left,style:TextStyle(fontWeight: FontWeight.bold,fontSize: 15,color: Colors.white),)
                           ]
                         ),
                      ],
                     ),
+
                   ],
                 ),
               )
